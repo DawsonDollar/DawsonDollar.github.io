@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h>Week #</h>
+<h id="week"></h>
+
+<script>
+var a  = new Date()
+var b = new Date("2017-10-6");
+var weeks = Math.floor((a-b)/ 604800000);
+
+document.getElementById("week").innerHTML = weeks;
+</script>
+
+</body>
+</html> 
